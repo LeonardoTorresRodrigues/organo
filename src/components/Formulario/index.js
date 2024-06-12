@@ -24,7 +24,7 @@ const Formulario = () => {
                 <ListaSuspensa itens={times} />
             </form>
         </section>
-    )
-}
+    );
+};
 
 export default Formulario;

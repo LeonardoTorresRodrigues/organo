@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import './CampoTexto.css';
 
 const CampoTexto = (props) => {
@@ -9,7 +10,7 @@ const CampoTexto = (props) => {
             <label>{props.label}</label>
             <input placeholder={placeholderModificada}/>
         </div>
-    )
-}
+    );
+};
 
 export default CampoTexto;
