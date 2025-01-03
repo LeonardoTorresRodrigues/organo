@@ -14,13 +14,16 @@ const Formulario = (props) => {
 
     const aoSalvar = (evento) => {
         evento.preventDefault();
-        // eslint-disable-next-line react/prop-types
         props.aoColaboradorCadastrado({
             nome,
             cargo,
             imagem,
             time
         });
+        setNome('');
+        setCargo('');
+        setImagem('');
+        setTime('');
     };
 
     return (
