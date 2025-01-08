@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 /* eslint-disable react/prop-types */
 import { useState } from 'react';
 import Botao from '../Botao';
