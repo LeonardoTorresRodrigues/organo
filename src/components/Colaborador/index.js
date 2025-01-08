@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 /* eslint-disable react/prop-types */
 import { AiFillCloseCircle } from 'react-icons/ai';
 import './Colaborador.css';
